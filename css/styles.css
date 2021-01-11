@@ -1,0 +1,66 @@
+:root {
+    --text-highlight: #97c93e;
+}
+
+.text-highlight {
+    color: var(--text-highlight) !important;
+}
+
+.btn-green {
+    background-color: var(--text-highlight);
+    color: #FFF;
+}
+
+.btn-green:hover {
+    background-color: #82ad36;
+}
+
+#header img {
+    width: 130px;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    z-index: 1;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#place-time {
+    background-color: #343a40;
+    color: #FFF;
+}
+
+#place-time img {
+    width: 100%;
+}
+
+#footer{
+    background: -webkit-linear-gradient(0deg,#1c3643,#273b47 25%,#1e5372);
+    background: -moz-linear-gradient(0deg,#1c3643 0,#273b47 25%,#1e5372);
+    background: -o-linear-gradient(0deg,#1c3643 0,#273b47 25%,#1e5372);
+    background: -ms-linear-gradient(0deg,#1c3643 0,#273b47 25%,#1e5372);
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer a {
+    color: #FFF
+}
